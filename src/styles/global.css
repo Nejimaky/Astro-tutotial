@@ -1,5 +1,5 @@
 html {
-    background-color: #f1f5f9;
+    background-color: #F2F5F7;
     font-family: sans-serif;
         --skillColor: navy;
         --fontWeight: bold;
@@ -87,5 +87,12 @@ html {
   .hamburger {
     display: none;
   }
-
+  html.dark {
+    background-color: #1E1E1E;
+    color: #fff;
+  }
+  
+  .dark .nav-links a {
+    color: #fff;
+  }
 }
